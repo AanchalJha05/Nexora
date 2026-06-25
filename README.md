@@ -1,63 +1,167 @@
-# Nexora
+# 🛍️ Nexora
 
-A full-stack task management and productivity platform built using React, Django, and PostgreSQL.
+### ✨ A Modern E-Commerce Platform
 
-## Features
+A full-stack e-commerce web application built using **React**, **Django**, and **PostgreSQL**. Nexora provides a seamless shopping experience with user authentication, product browsing, wishlist management, cart functionality, order tracking, and profile management.
 
-* User Authentication
-* Create Tasks
-* Update Tasks
-* Delete Tasks
+---
+
+## 🚀 Tech Stack
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge\&logo=django\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+
+---
+
+# ✨ Features
+
+### 👤 Authentication
+
+* User Registration
+* User Login
+* Secure Authentication System
+
+### 🛒 Shopping Features
+
+* Browse Products
+* View Product Details
+* Add to Cart
+* Remove from Cart
+* Wishlist Management
+
+### 📦 Order Management
+
+* Delivery Details
+* Order History Tracking
+
+### 👤 User Profile
+
+* View Profile Details
+* Update User Information
+
+### ⚙️ Backend Features
+
+* Django REST Framework APIs
 * PostgreSQL Database Integration
 * Responsive User Interface
 
-## Tech Stack
+---
 
-### Frontend
+# 📸 Screenshots
 
-* React
-* JavaScript
-* CSS
+## 🏠 Home Page
 
-### Backend
+![Home Page](screenshots/home.png)
 
-* Django
-* Django REST Framework
+## 🔐 Login Page
 
-### Database
+![Login](screenshots/login.png)
 
-* PostgreSQL
+## 📝 Register Page
 
-## Installation
+![Register](screenshots/register.png)
 
-### Clone Repository
+## 📦 Product Details
+
+![Product Details](screenshots/productdetails.png)
+
+## 🛒 Cart Details
+
+![Cart Details](screenshots/cartdetails.png)
+
+## 🚚 Delivery Details
+
+![Delivery Details](screenshots/deliverydetails.png)
+
+## ❤️ Wishlist
+
+![Wishlist](screenshots/wishlist.png)
+
+## 👤 Profile Details
+
+![Profile Details](screenshots/profiledetails.png)
+
+## 📜 Order History
+
+![Order History](screenshots/orderhistory.png)
+
+---
+
+# 🛠️ Installation Guide
+
+## 1️⃣ Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone  https://github.com/AanchalJha05/Nexora.git
+cd Nexora
 ```
 
-### Backend Setup
+## 2️⃣ Backend Setup
 
 ```bash
 pip install -r requirements.txt
+python manage.py migrate
 python manage.py runserver
 ```
 
-### Frontend Setup
+## 3️⃣ Frontend Setup
 
 ```bash
-cd frontend
+cd Store
 npm install
 npm start
 ```
 
-## Future Improvements
+## 4️⃣ Environment Variables
 
-* Email Verification
-* Task Reminders
-* Team Collaboration
-* Real-Time Notifications
+Create a `.env` file in the root directory:
 
-## Author
+```env
+DB_NAME=your_db_name
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+DB_HOST=localhost
+DB_PORT=5432
+```
 
-Aanchal
+---
+
+# 📂 Project Structure
+
+```text
+Nexora/
+│
+├── Store/               # React Frontend
+├── Nexora/              # Django Project
+├── media/               # Uploaded Media Files
+├── screenshots/         # Project Screenshots
+├── .env
+├── .gitignore
+├── requirements.txt
+├── manage.py
+└── README.md
+```
+
+---
+
+# 🔮 Future Improvements
+
+* 💳 Online Payment Integration
+* ⭐ Product Reviews & Ratings
+* 🔍 Advanced Product Search
+* 📧 Email Verification
+* 📱 Mobile Optimization
+* 📊 Admin Dashboard Enhancements
+
+---
+
+# 👩‍💻 Author
+
+**Aanchal**
+
+Backend Development | Django | React | PostgreSQL | DSA
+
+Building real-world projects and continuously improving backend development skills 🚀
+
