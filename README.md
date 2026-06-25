@@ -152,7 +152,6 @@ Nexora/
 * ⭐ Product Reviews & Ratings
 * 🔍 Advanced Product Search
 * 📧 Email Verification
-* 📱 Mobile Optimization
 * 📊 Admin Dashboard Enhancements
 
 ---
