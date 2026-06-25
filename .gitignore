@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Django uploads
+media/
+
+# React dependencies
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# SQLite database (if present)
+db.sqlite3
