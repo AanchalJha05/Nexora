@@ -163,5 +163,5 @@ Nexora/
 
 Backend Development | Django | React | PostgreSQL | DSA
 
-Building real-world projects and continuously improving backend development skills 🚀
+Building real-world projects and continuously improving backend development skills 
 
